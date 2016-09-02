@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+    Created by Asen Sokolov on 19.06.2016.
+    Phone UAE: +971 56 912 0557;
+    Phone Bulgaria:  +359 88 335 0672;
+    Email: contact@asensokolov.com
+
+    Hey there. Thanks for taking a peek at what goes on behind the scene in my website.
+    That means you're probably
+        a) someone I want to hire  OR
+        b) someone I want to work with.
+    In any case, please shoot me an email at: contact@asensokolov.com
+-->
+<html ng-app="meanApp">
+
+<head lang="en" >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Timy Time">
+    <meta name="author" content="Asen Sokolov">
+    <title>Timy Time</title>
+
+    <meta property="og:title" content="Timy Time">
+    <meta property="og:url" content="http://www.track4time.io">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Timy Time">
+    <meta property="og:description" content="Timy Time">
+    <meta property="og:image" content="/assets/img/fgo-fb-post-image.jpg">
+
+    <meta name="fragment" content="!">
+
+    <link rel="stylesheet" href="./assets/js/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/js/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <base href="/">
+</head>
+
+<body ng-view>
+
+    <script src="./assets/js/bower_components/angular/angular.min.js"></script>
+    <script src="./assets/js/bower_components/angular-route/angular-route.min.js"></script>
+
+    <script src="./app.js"></script>
+
+    <script src="./shared/auth/auth-service.js"></script>
+    <script src="./shared/auth/data-service.js"></script>
+
+    <script src="./shared/header/header-controller.js"></script>
+    <script src="./shared/header/header-directive.js"></script>
+    <script src="./shared/footer/footer-controller.js"></script>
+
+    <script src="./modules/home/home-controller.js"></script>
+    <script src="./modules/login/login-controller.js"></script>
+    <script src="./modules/register/register-controller.js"></script>
+    <script src="./modules/profile/profile-controller.js"></script>
+
+</body>
+</html>
